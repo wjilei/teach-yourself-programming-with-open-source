@@ -127,17 +127,16 @@ LICENSE
   1. Changing from Requirements
   1. 顺藤摸瓜，寻找可以参考的代码
   1. Finding Codes for Reference by following clues
-  1. 动一ng Bigger Changes -- Structural Adjustment
+  1. 动一个大手术 -- 结构性调整
   1. Making bigger changes -- Structural Adjustment
-  1. Hardships of seeking Approval
   1. 寻求认可的艰难历程
+  1. Hardships of seeking Approval
 1.   提bug与建议
   1. Finding Bugs and Making Proposals
-  1. 提bug与建议
-  1. Helping to Improve Documentation
   1. 帮助完善文档
-  1. Pushing Your Codes (Function Code and Test Code)
+  1. Helping to Improve Documentation
   1. 提交代码（功能代码与测试代码）
+  1. Pushing Your Codes (Function Code and Test Code)
   1. 周边代码（demo/扩展/子项目）
   1. 外部宣传
   1. 其他各种杂务
