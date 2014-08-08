@@ -110,7 +110,7 @@ LICENSE
     1. 修改代码，破坏性尝试<br />
        Try to Change 
   1. 主线与支线<br />
-  1. Main Line and Branch Line
+     Main Line and Branch Line
     1. 寻找入口<br />
        Where to Begin
     1. 跟踪关键流程<br />
@@ -118,14 +118,14 @@ LICENSE
     1. 寻找挂接点<br />
        Find the Mount Point
   1. 外围代码<br />
-  1. Surrounding code (?)
+     Surrounding code (?)
     1. 必须存在的外围功能<br />
        Sub-functions Must Existed
     1. demo/example
     1. 单元测试<br />
        Unit Testing
   1. 知其所以然<br />
-  1. Knowing How
+     Knowing How
 1. [修改开源项目](Modify-the-open-source-project.md)<br />
     Modify the Open Source Project
   1. 从需求出发，修改代码<br />
