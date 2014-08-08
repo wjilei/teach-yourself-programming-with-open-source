@@ -138,14 +138,21 @@ LICENSE
   1. 提交代码（功能代码与测试代码）
   1. Pushing Your Codes (Function Code and Test Code)
   1. 周边代码（demo/扩展/子项目）
+  1. Surrounding Code (Demo/Extension/Subproject)
   1. 外部宣传
+  1. Promotion
   1. 其他各种杂务
+  1. Other Odd Jobs
 1. [成为组织的一员](Join-the-group.md)
   1. 交流圈
+  1. Partners
   1. 组织结构
+  1. Organization Structure
   1. 开源项目的组织方式*
+  1. Organization of Open-source Project
   1. 基本礼仪
-1. [自己发起一个开源项目](Create-an-open-source-project.md)
-1. [延伸阅读](Read-more.md)
-1. [贡献者](Contributor.md)
-1. [开源问答](FAQ.md)
+  1. Basic Etiquette
+1. [Create an Open Source Project](Create-an-open-source-project.md)
+1. [Read-more](Read-more.md)
+1. [Contributor](Contributor.md)
+1. [FAQ](FAQ.md)
