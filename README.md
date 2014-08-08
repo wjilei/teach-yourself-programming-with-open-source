@@ -25,7 +25,7 @@ LICENSE
   Contents
 
 1. [开始之前](Before-start.md)<br />
-    Before Start
+    [Before Start](Before-start.md)
   1. 这份文档的目标读者<br />
      Target Audience
   1. 基本条件<br />
@@ -33,7 +33,7 @@ LICENSE
   1. 你需要明确的一些事情<br />
      Something Need to know First
 1. [开始](Start.md)<br />
-    Start
+    [Start](Start.md)
   1. 学习软件开发的几条主要途径<br />
      Several Main Methods of Learning Software Development
   1. 为什么借助开源学习是最有效的<br />
@@ -49,7 +49,7 @@ LICENSE
     1. 各种参考资料<br />
        References
 1. [选择一个开源项目](Select-an-open-source-project.md)<br />
-    Select an Open-source Project
+    [Select an Open-source Project](Select-an-open-source-project.md)
   1. 到哪里去寻找开源项目<br />
      Where to Find Open-source Projects
   1. 什么样的开源项目适合初学者<br />
@@ -84,7 +84,7 @@ LICENSE
   1. 如何克服可能遇到的困难<br />
      Overcome the Problems You May Encounter
 1. [理解源代码](Understanding-the-source-code.md)<br />
-    Understanding the Source Code
+    [Understanding the Source Code](Understanding-the-source-code.md)
   1. 静态理解<br />
      Static Understanding
     1. 目录结构<br />
@@ -127,7 +127,7 @@ LICENSE
   1. 知其所以然<br />
      Knowing How
 1. [修改开源项目](Modify-the-open-source-project.md)<br />
-    Modify the Open Source Project
+    [Modify the Open Source Project](Modify-the-open-source-project.md)
   1. 从需求出发，修改代码<br />
      Changing from Requirements
   1. 顺藤摸瓜，寻找可以参考的代码<br />
@@ -149,7 +149,7 @@ LICENSE
   1. 其他各种杂务<br />
      Other Odd Jobs
 1. [成为组织的一员](Join-the-group.md)<br />
-    Join the group
+    [Join the group](Join-the-group.md)
   1. 交流圈<br />
      Partners
   1. 组织结构<br />
@@ -159,10 +159,10 @@ LICENSE
   1. 基本礼仪<br />
      Basic Etiquette
 1. [自己发起一个开源项目](Create-an-open-source-project.md)<br />
-    Create an Open Source Project
+    [Create an Open Source Project](Create-an-open-source-project.md)
 1. [更多](Read-more.md)<br />
-    Read-more
+    [Read-more](Read-more.md)
 1. [贡献者](Contributor.md)<br />
-    Contributor
+    [Contributor](Contributor.md)
 1. [常问问题](FAQ.md)<br />
-    FAQ
+    [FAQ](FAQ.md)
