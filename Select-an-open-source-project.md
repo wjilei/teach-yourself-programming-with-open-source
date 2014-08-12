@@ -15,7 +15,7 @@
 
 另外，每个开源项目都需要有自己的管理平台，各大基金会的开源项目也不例外，因此，各个开源项目的托管网站是也是一个寻找开源软件的好去处。
 
-目前在业界比较知名的项目托管网站主要有SourceForge，Google Code，GitHub。
+目前在业界比较知名的项目托管网站主要有SourceForge，Google Code，GitHub, Bitbucket。
 
 微博上的@OpenERP_Jeff 补充说：[launchpad](https://launchpad.net/)是一个很重要的开源hosting网站，著名的开源项目有ubuntu、mysql和zope。项目计划、蓝图、代码库、bug管理、翻译都很完整。
 
@@ -35,6 +35,8 @@
 ### 技术社区
 
 像ITeye，infoQ,OSChina，CSDN等国内知名的技术社区都非常关心开源软件的发展，在社区新闻，月刊等载体上都有最新的，流行的开源软件介绍。同时在社区，还有一个很大的好处，你会找到很多志同道合的朋友，这可是学习过程中的一大乐事。
+学校是一个推广开源的重地，主要的以学校为单位的开源技术社区有： 『[中科院开源协会](https://www.opencas.org/)』
+
 
 ### 各大科技公司的研究院
 
