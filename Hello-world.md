@@ -6,13 +6,13 @@
 
 首先需要介绍一些基础的概念，这里只是简要的介绍，比较详细的介绍，可以参见[Understanding Version-Control Systems](http://www.catb.org/%7Eesr/writings/version-control/version-control.html)，期待有人能够将其翻译为中文。（或者已经有中译本了，欢迎告知我。）
 
-**源代码([Source Code](http://en.wikipedia.org/wiki/Source_code))**：也就是通常一个软件，由程序员编写，并且可以被其他程序员阅读的，可以被直接执行/或编译后执行的文本代码。
+**源代码([Source Code](http://en.wikipedia.org/wiki/Source_code))**：也就是通常一个软件，由程序员编写，并且可以被其他程序员阅读的，可以被直接执行或编译后执行的文本代码。
 
-**源代码管理与版本控制([Version control/Revision control](http://en.wikipedia.org/wiki/Revision_control))** ：由于源代码数量的急剧膨胀、变更的越来越频繁、可能修改同一个源文件的人也越来越多，需要将这些代码管理起来，于是每次变更被称之为一次修正 (Revision)。版本控制更准确的说法应该是“Revision control”，每当我们修改一个源代码文件并再次保存时，就出现了两个不同的版本，一个是修改前的，一个是修改以后的。而版本控制，就是确保源文件的 每一次修改，都被记录下来，并且可以知道是被谁修改的，是因为什么原因而修改的。必要时，可以找回任何一个版本的源代码。
+**源代码管理与版本控制([Version control/Revision control](http://en.wikipedia.org/wiki/Revision_control))** ：由于源代码数量的急剧膨胀、变更地越来越频繁、可能修改同一个源文件的人也越来越多，需要将这些代码管理起来，于是每次变更被称之为一次修正 (Revision)。版本控制更准确的说法应该是“Revision control”，每当我们修改一个源代码文件并再次保存时，就出现了两个不同的版本，一个是修改前的，一个是修改以后的。而版本控制，就是确保源文件的每一次修改，都被记录下来，并且可以知道是被谁修改的，是因为什么原因而修改的。必要时，可以找回任何一个版本的源代码。
 
-**软件版本号([Software Version](http://en.wikipedia.org/wiki/Software_versioning))** ：这里的版本，是另外一个概念，源代码中的任何一个文件，都存在一个修订版本号，而作为整个软件，无论对内称呼还是对外发布，都需要一个更加正式的，完整 的版本号。前者的英文是Revision，而后者的英文是：Version。因此，当我们谈到版本管理的时候，很可能是同时谈到两者：一个是源代码的 Revision，一个是整个项目的Version。
+**软件版本号([Software Version](http://en.wikipedia.org/wiki/Software_versioning))** ：这里的版本，是另外一个概念，源代码中的任何一个文件，都存在一个修订版本号，而作为整个软件，无论对内称呼还是对外发布，都需要一个更加正式的，完整的版本号。前者的英文是Revision，而后者的英文是：Version。因此，当我们谈到版本管理的时候，很可能是同时谈到两者：一个是源代码的 Revision，一个是整个项目的Version。
 
-**版本控制工具([Revision control software](http://en.wikipedia.org/wiki/List_of_revision_control_software))** ：为了帮助更好的管理源代码，程序员们开发出了林林种种的版本控制工具，有闭源的，也有开源的。而现在市面上流行的，已经几乎全是开源的了。简单的列出几种在下面：
+**版本控制工具([Revision control software](http://en.wikipedia.org/wiki/List_of_revision_control_software))** ：为了帮助更好的管理源代码，程序员们开发出了林林总总的版本控制工具，有闭源的，也有开源的。而现在市面上流行的，已经几乎全是开源的了。简单的列出几种在下面：
 
 * 仅管理本地源文件
   * 免费/开源：SCCS (1972) RCS (1982)
@@ -31,7 +31,7 @@
 
 ### 4.1.2. 寻找早期开源项目的源代码
 
-取得源代码的方式千千万万，现在有越来越多的开源项目，已经开始逐步采用规范的，统一的方式，提供自己的源代码以供下载，但是在开源项目发展的早 期，还有很多是以并非规范的方式提供的。而在寻找一些开源项目的源代码时，google与wikipedia，将会是我们的好帮手。当然，还有更早期的一 些开源项目，就是在邮件列表里发一个带附件的邮件，要找到那种项目的源代码，就得有考古的功力了。
+取得源代码的方式千千万万，现在有越来越多的开源项目，已经开始逐步采用规范的、统一的方式，提供自己的源代码以供下载，但是在开源项目发展的早期，还有很多是以并非规范的方式提供的。而在寻找一些开源项目的源代码时，google与wikipedia，将会是我们的好帮手。当然，还有更早期的一些开源项目，就是在邮件列表里发一个带附件的邮件，要找到那种项目的源代码，就得有考古的功力了。
 
 这里举一个例子，来描述一下我寻找某一个开源项目源代码的过程。
 
@@ -83,7 +83,7 @@
 
 然后，获取代码也极其简单：
 
-	git clone GitRepoURL
+    git clone GitRepoURL
 
 **Mercurial如何获取代码**
 
@@ -99,7 +99,7 @@
 
 想要更进一步的了解软件包管理系统，可以阅读[英文版](http://en.wikipedia.org/wiki/Package_management_system) [中文版](http://zh.wikipedia.org/wiki/%E8%BD%AF%E4%BB%B6%E5%8C%85%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F)
 
-与过去的很多开源项目不同，这种脚本语言的包管理工具实在是方便，一行命令，连下载，带安装、就都有了。本章4.2节的让代码运行起来里，会举几个这样的例子。这里就不再赘述了。
+与过去的很多开源项目不同，这种脚本语言的包管理工具实在是方便，一行命令，连下载，带安装，就都有了。本章4.2节的让代码运行起来里，会举几个这样的例子。这里就不再赘述了。
 
 **Application-level package managers**
 
@@ -119,9 +119,9 @@
 
 ### 4.2.1. Ruby版
 
-在Windows环境下 推荐安装[RubyInstaller](http://rubyinstaller.org/)，进入下载页面，选择一个ruby版本，比如[Ruby 1.9.3-p125](http://rubyforge.org/frs/download.php/75848/rubyinstaller-1.9.3-p125.exe)，下载、运行安装即可。
+在Windows环境下推荐安装[RubyInstaller](http://rubyinstaller.org/)，进入下载页面，选择一个ruby版本，比如[Ruby 1.9.3-p125](http://rubyforge.org/frs/download.php/75848/rubyinstaller-1.9.3-p125.exe)，下载、运行安装即可。
 
-在Linux/Mac环境下 推荐安装[RVM](http://beginrescueend.com/)或者[rbenv](http://rbenv.org/)
+在Linux/Mac环境下推荐安装[RVM](http://beginrescueend.com/)或者[rbenv](http://rbenv.org/)
 
 	$ bash -s stable < <(curl -s https://raw.github.com/wayneeseguin/rvm/master/binscripts/rvm-installer)
 	ubuntu下，将下两行中的.bash_profile改为.profile
@@ -162,7 +162,7 @@
 	$ sudo vim /var/www/info.php
 	将以下内容写入文件
 	<?php
-	phpinfo();
+	    phpinfo();
 	?>
 	在浏览器中访问 http://localhost/info.php 应该能够看到PHP的版本及模块说明等内容。这样就表明，Linux+Apache+MySQL+PHP已经配置完成了。
 
@@ -186,7 +186,7 @@
 	define('DB_PASSWORD', 'wp_password');
 	define('DB_HOST', 'localhost');
 
-在浏览器中访问 [http://localhost/wordpress/wp-admin/install.php](http://localhost/wordpress/wp-admin/install.php) 按提示完成各个步骤，就搞定了，整个时间不超过5分钟。
+在浏览器中访问 http://localhost/wordpress/wp-admin/install.php 按提示完成各个步骤，就搞定了，整个时间不超过5分钟。
 
 最后一句的提示，很有趣味：“WordPress 安装完成。您是否还沉浸在愉悦的安装过程中？很遗憾，一切皆已完成！ :)”
 
@@ -200,7 +200,7 @@
 	$ tar -zxvf apache-tomcat-7.0.27-src.tar.gz
 	$ cd apache-tomcat-7.0.27-src
 	$ vim BUILDING.txt # 阅读编译指南，按照指示操作
-	$ 下载 jdk-6u31-linux-x64.bin #tomcat7.0.x的源代码编译，要求jdk6的版本，jdk7在编译时，会报错
+	下载 jdk-6u31-linux-x64.bin #tomcat7.0.x的源代码编译，要求jdk6的版本，jdk7在编译时，会报错
 	$ cd
 	$ ./jdk-6u31-linux-x64.bin
 	$ export JAVA_HOME=~/jdk1.6.0_31/
@@ -246,7 +246,7 @@
 	$ python hello.py
 	  http://0.0.0.0:8080/
 
-这是，用浏览器访问 [http://localhost:8080/](http://localhost:8080/) 你将看到 Hello, world.
+这是，用浏览器访问 http://localhost:8080/ 你将看到 Hello, world.
 
 ### 4.2.5. JavaScript版
 
@@ -280,7 +280,7 @@
 	#File End
 	$ node test.js
 
-打开浏览器，访问[http://localhost:3000/](http://localhost:3000/) 将看到 Hello World!
+打开浏览器，访问 http://localhost:3000/ 将看到 Hello World!
 
 ### 4.2.6. C/C++版
 
@@ -336,7 +336,7 @@
 更多内容可以参考：
 
 * [Getting Started with the LLVM System](http://llvm.org/docs/GettingStarted.html)
-* [参考文档 漫谈C语言及如何学习C语言](http://sunxiunan.com/?p=1661)
+* [参考文档漫谈C语言及如何学习C语言](http://sunxiunan.com/?p=1661)
 
 ## 4.3. 如何克服可能遇到的困难
 
@@ -344,15 +344,15 @@
  
 LLVM的文档很有意思，在他开篇头三条是：1. Read the documentation. 2. Read the documentation. 3. Remember that you were warned twice about reading the documentation.
 
-是的，认真的，非常认真的阅读相关文档，是最重要的方法。其他的一切方法，都是排在这个后面的。
+是的，认真地，非常认真地阅读相关文档，是最重要的方法。其他的一切方法，都是排在这个后面的。
 
-当然，文档的正确性和完整性，也是可以怀疑的。有很多开源项目，往往存在文档bug、文档版本与代码版本不同步等问题。比如LLVM的安装文档，也并非完全 正确，我到现在都还不明白，在1.2.3.条那么正经的提示之后，他的第8条，只有configure、make、make check-all、make update，居然没有make install！
+当然，文档的正确性和完整性，也是可以怀疑的。有很多开源项目，往往存在文档bug、文档版本与代码版本不同步等问题。比如LLVM的安装文档，也并非完全正确，我到现在都还不明白，在1.2.3.条那么正经的提示之后，他的第8条，只有configure、make、make check-all、make update，居然没有make install！
 
 但是，先看文档，尤其是项目本身的文档，而非二手、三手文档，是必须的第一步。
 
 **2. 注意依赖，注意版本号**
 
-优秀的安装手册，会提示你各种版本依赖问题。在开始正式安装之前，核对各种相关系统、工具、类库的版本，是非常重要 的。之前我在安装apache tomcat的时候，就发现用java sdk的最新版JDK7，是不能正确编译的。必须将JDK，退回到JDK6.x，才能正确。
+优秀的安装手册，会提示你各种版本依赖问题。在开始正式安装之前，核对各种相关系统、工具、类库的版本，是非常重要的。之前我在安装apache tomcat的时候，就发现用java sdk的最新版JDK7，是不能正确编译的。必须将JDK，退回到JDK6.x，才能正确。
 
 说实话，在开源软件安装的时候，估计有60%的问题，都是出在版本错误上。而剩下的40%，多半是看文档不认真的原因。
 
@@ -368,7 +368,7 @@ LLVM的文档很有意思，在他开篇头三条是：1. Read the documentation
 
 **5. 在网上找一找攻略**
 
-有很多前人，愿意将自己的安装步骤仔仔细细的记录下来，从而节约我们大量的时间。找到优质的攻略，是事半功倍之道。但是， 要特别注意攻略提及的软件版本，相关环境。在网上搜索攻略时，也类似。比如：不要简单的搜索“ubuntu apache source install”，而是搜索“ubuntu 10.04 64 apache source install”。这样能够避免照着不同版本的攻略，一个劲的死拼。另外，再一次提醒，**不要在百度搜索**。在国内的技术圈，有无数的“开发者”，喜欢反复的转载别人的blog和文章。不但不注明原文来源，甚至连格式、排版都丢失了，内容也难免错漏。简直就是一堆垃圾。而在百度搜索，这种垃圾又特别多，躲都躲不开。
+有很多前人，愿意将自己的安装步骤仔仔细细地记录下来，从而节约我们大量的时间。找到优质的攻略，是事半功倍之道。但是，要特别注意攻略提及的软件版本，相关环境。在网上搜索攻略时，也类似。比如：不要简单的搜索“ubuntu apache source install”，而是搜索“ubuntu 10.04 64 apache source install”。这样能够避免照着不同版本的攻略，一个劲地死拼。另外，再一次提醒，**不要在百度搜索**。在国内的技术圈，有无数的“开发者”，喜欢反复的转载别人的blog和文章。不但不注明原文来源，甚至连格式、排版都丢失了，内容也难免错漏。简直就是一堆垃圾。而在百度搜索，这种垃圾又特别多，躲都躲不开。
 
 所以，最好是在Google搜索！
 
