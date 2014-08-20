@@ -28,7 +28,7 @@
 |[BitBucket](https://bitbucket.org/)|No|Yes|Yes|Python的项目在上面比较多|
 
 维基百科有一个词条，列出了非常非常多的开源托管服务的比较：
-
+新
 * [Comparison of open source software hosting facilities](http://en.wikipedia.org/wiki/Comparison_of_open_source_software_hosting_facilities)
 * [自由软件主机服务比较](http://zh.wikipedia.org/wiki/%E8%87%AA%E7%94%B1%E8%BD%AF%E4%BB%B6%E4%B8%BB%E6%9C%BA%E6%9C%8D%E5%8A%A1%E6%AF%94%E8%BE%83)
 
@@ -43,7 +43,7 @@ Google的BigTable论文，Amazon的Dynamo论文开启了目前火热的云计算
 
 ### 谷歌编程之夏(Google Summer of Code)
 
-我个人觉得GSoC是一个寻找开源项目的好地方。原因有以下几点：
+我新个人觉得GSoC是一个寻找开源项目的好地方。原因有以下几点：
 1.GSoC有一个[历年来的参与者列表](http://www.google-melange.com/gsoc/accepted_orgs/google/gsoc2012)([http://www.google-melange.com/gsoc/accepted_orgs/google/gsoc2012](http://www.google-melange.com/gsoc/accepted_orgs/google/gsoc2012))，这个列表中的有各种各样的开源组织可以让想参与的人挑选（今年的列表上有180个组织）。
 2.参与者列表上的组织是经过一定的审核才选出来的，选拨出来的组织一般质量比较好，社区活跃度也很高。
 3.列表上的组织为了吸引参加人员，一般在项目的主页上会有专门的wiki为参加人员导航(比如这个[DragonFlyBSD项目](http://www.dragonflybsd.org/docs/developer/gsoc2012student/)([http://www.dragonflybsd.org/docs/developer/gsoc2012student/](http://www.dragonflybsd.org/docs/developer/gsoc2012student/)))，很适合新手快速了解这个项目。
